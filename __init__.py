@@ -9,4 +9,4 @@ def create_app():
     app.register_blueprint(routes.bp)
 
     return app
-app = create_app()  # WSGI object for Gunicorn
+app = create_app() 
